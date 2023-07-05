@@ -1,5 +1,6 @@
 ### NextJS ###
 .next/
+dist
 
 ### react ###
 .DS_*
