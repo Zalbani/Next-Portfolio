@@ -1,0 +1,18 @@
+### NextJS ###
+.next/
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+### dependencies ####
+node_modules
+
+### environement variables ####
+.env
+
+### Storybook ###
+storybook-static
