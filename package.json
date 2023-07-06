@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "prettier": "prettier --write .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -35,6 +36,7 @@
     "@storybook/react": "^7.0.26",
     "@storybook/testing-library": "^0.0.14-next.2",
     "eslint-plugin-storybook": "^0.6.12",
+    "prettier": "^3.0.0",
     "sass": "^1.63.6",
     "storybook": "^7.0.26"
   }

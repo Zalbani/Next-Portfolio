@@ -1,27 +1,27 @@
-import React from 'react';
-import styles from './Button.module.scss';
+import React from 'react'
+import styles from './Button.module.scss'
 
 interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  primary?: boolean;
+  primary?: boolean
   /**
    * What background color to use
    */
-  backgroundColor?: string;
+  backgroundColor?: string
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large'
   /**
    * Button contents
    */
-  label: string;
+  label: string
   /**
    * Optional click handler
    */
-  onClick?: () => void;
+  onClick?: () => void
 }
 
 /**
@@ -34,11 +34,17 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? styles['storybook-button--primary'] : styles['storybook-button--secondary'];
+  const mode = primary
+    ? styles['storybook-button--primary']
+    : styles['storybook-button--secondary']
   return (
     <button
       type="button"
-      className={[styles['storybook-button'], styles[`storybook-button--${size}`], mode].join(' ')}
+      className={[
+        styles['storybook-button'],
+        styles[`storybook-button--${size}`],
+        mode,
+      ].join(' ')}
       {...props}
     >
       {label}
@@ -48,5 +54,5 @@ export const Button = ({
         }
       `}</style>
     </button>
-  );
-};
+  )
+}
