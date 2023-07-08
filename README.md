@@ -1,34 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/zalbani/Next-portfolio">
+    <img src="./tie.png" alt="Next-portfolio logo" width="80px">
+  </a>
 
-## Getting Started
+  <h3 align="center">Next-portfolio</h3>
 
-First, run the development server:
+  <p align="center">
+    My minimalist portfolio
+    <br />
+    <a href="https://zalbani.dev"><strong>View Online »</strong></a>
+    <br />
+  </p>
+  <hr/>
+</p>
+<div align="center">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+</div>
+
+## 🧐 About The Project <a name = "about"></a>
+
+The aim of my portfolio is to present my skills and achievements clearly and convincingly.
+
+### ⛏️ Built With
+
+- [NextJs](https://nextjs.org/) - Next.js is a free, open-source framework based on the React JavaScript library and Node.js technology.
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+Follow these steps to get a local copy up and running.
+
+### 🚀 Installation
+
+1. Install dependencies
+
+```sh
+$ yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Run server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+server with hot reload at [localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+$ yarn dev
+```
 
-## Learn More
+<!--
 
-To learn more about Next.js, take a look at the following resources:
+### 🎈 File structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+.
+├─ assets
+├─ sass
+│   ├─ components
+│   ├─ layout
+│   ├─ pages
+│   ├─ reset
+│   ├─ utilities
+│   └─ main.scss
+└─ index.html
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚧 Roadmap <a name = "roadmap"></a>
 
-## Deploy on Vercel
+- [ ] Reorganization of the file structure
+- [ ] Fancy home page
+- [ ] Some crazy text animations
+- [ ] Smooth scrolling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+more to come ...
+-->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📝 License <a name = "license"></a>
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## ✍️ Authors <a name = "authors"></a>
+
+Alban Pierson – [https://github.com/Zalbani/](https://github.com/Zalbani)
+
+<!--
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
+-->
+
+[forks-shield]: https://img.shields.io/github/forks/zalbani/Next-portfolio?style=for-the-badge
+[forks-url]: https://github.com/zalbani/Next-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/zalbani/Next-portfolio?style=for-the-badge
+[stars-url]: https://github.com/zalbani/Next-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/zalbani/Next-portfolio?style=for-the-badge
+[issues-url]: https://github.com/zalbani/Next-portfolio/issues
